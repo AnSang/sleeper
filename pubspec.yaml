@@ -37,6 +37,25 @@ dependencies:
 
   #Util
   get: ^4.6.3
+  dio: ^4.0.6
+  intl: ^0.17.0
+  cross_file: ^0.3.3
+  flutter_background_service: ^2.0.0
+
+  # UI
+  d_button: ^0.0.10
+  time_chart: ^0.4.0
+  fluttertoast: ^8.0.9
+  image_picker: ^0.8.5+3
+  dotted_border: ^2.0.0+2
+  flutter_spinkit: ^5.1.0
+  flutter_slidable: ^1.2.0
+  weekday_selector: ^1.1.0
+  salomon_bottom_bar: ^3.3.1
+  flutter_signin_button: ^2.0.0
+  day_night_time_picker: ^1.0.5
+  flutter_keyboard_visibility: ^5.2.0
+  flutter_local_notifications: ^9.5.3+1
 
   # FireBase
   firebase_core: ^1.17.0
@@ -44,6 +63,10 @@ dependencies:
   cloud_firestore: ^3.1.15
   firebase_storage: ^10.2.16
 
+  # Login
+  google_sign_in: ^5.3.1
+  flutter_facebook_auth: ^4.3.3
+  github_sign_in: ^0.0.4
 
 
 dev_dependencies:
