@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "773586464375",
+    "project_id": "sleeper-38655",
+    "storage_bucket": "sleeper-38655.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773586464375:android:a3b0468c5ff1e262916072",
+        "android_client_info": {
+          "package_name": "com.lim1t.sleeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773586464375-1vfhtol9h33hun4a3c5j9adi42iq9c1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lim1t.sleeper",
+            "certificate_hash": "5d2db6a21e4faf472bf7bffac28a26e14e30fb1e"
+          }
+        },
+        {
+          "client_id": "773586464375-isev2b322lei02dbmak26rv2aasplr6d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lim1t.sleeper",
+            "certificate_hash": "61dcffddd3f19f28bfdc01a32a79f6fcee47962e"
+          }
+        },
+        {
+          "client_id": "773586464375-j43h0i20fe80sj2ildrb29avvi1vf3i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb-Bzcaq-RuuwMkUu2yqm_dk9CZ2zPfbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773586464375-j43h0i20fe80sj2ildrb29avvi1vf3i8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "773586464375-b1fo0sed0q5ctc39pofiichlq5so6ngo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lim1t.sleeper"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
