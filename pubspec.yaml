@@ -64,7 +64,7 @@ dependencies:
 
   # Login
   google_sign_in: ^5.3.1
-  github_sign_in: ^0.0.4
+  github_sign_in: ^0.0.5-dev.4
 
 
 dev_dependencies:
