@@ -1,5 +1,8 @@
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:sleeper/screens/screen_alarm.dart';
+import 'package:sleeper/screens/screen_clock.dart';
+import 'package:sleeper/screens/screen_info.dart';
+import 'package:sleeper/screens/screen_record.dart';
 import 'package:sleeper/utils/background_service.dart';
 import 'package:sleeper/utils/firebase_database.dart';
 import 'package:sleeper/utils/notification.dart';
@@ -8,8 +11,7 @@ import '../models/alarm_info.dart';
 
 class MainController extends GetxController {
   static const key = 'Main';
-  // List screens = [ ScreenClock(), ScreenAlarm(), ScreenRecord(), ScreenInfo() ]; // Screen List
-  List screens = [ Container( color: Colors.red ), Container( color: Colors.blue ), Container( color: Colors.green ), Container( color: Colors.purple ) ]; // Screen List
+  List screens = [ ScreenClock(), ScreenAlarm(), ScreenRecord(), ScreenInfo() ]; // Screen List
 
   final FirebaseDataBase dataBase = FirebaseDataBase();
   final BackGroundService service = BackGroundService();

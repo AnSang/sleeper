@@ -4,7 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:github_sign_in/github_sign_in.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
+// import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 
 class FirebaseAuthentication {
   // The entrypoint of the firebase auth SDK
@@ -62,7 +62,7 @@ class FirebaseAuthentication {
 
 
 
-  //////// FaceBook /////////////
+  /*//////// FaceBook /////////////
   Future<String?> signInWithFacebook() async {
     // Trigger the sign-in flow
     final LoginResult loginResult = await FacebookAuth.instance.login();
@@ -77,7 +77,7 @@ class FirebaseAuthentication {
       return '$user';
     }
     return null;
-  }
+  }*/
 
   //////// GitHub /////////////
   Future<String?> signInWithGitHub(BuildContext context) async {

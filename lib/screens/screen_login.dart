@@ -38,7 +38,7 @@ class ScreenLogin extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     LoginButton(buttons: Buttons.Google, onPressed: (){ controller.loginGoogle(); } ),
-                    LoginButton(buttons: Buttons.FacebookNew, onPressed: (){ controller.loginFacebook(); } ),
+                    // LoginButton(buttons: Buttons.FacebookNew, onPressed: (){ controller.loginFacebook(); } ),
                     LoginButton(buttons: Buttons.GitHub, onPressed: (){ controller.loginGithub(context); } ),
                     const SizedBox( height: 80 )
                   ],

@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_background_service/flutter_background_service.dart';
+import 'package:sleeper/firebase_options.dart';
 import 'package:sleeper/models/alarm_info.dart';
 import 'package:sleeper/models/user_info.dart';
 import 'package:sleeper/utils/firebase_database.dart';
@@ -32,12 +33,12 @@ bool onIosBackground(ServiceInstance service) {
 }
 
 Future onStart(ServiceInstance service) async {
-  await Firebase.initializeApp();
+  /*await Firebase.initializeApp( options: DefaultFirebaseOptions.currentPlatform );
   final AlarmNotification noti = AlarmNotification();
   final FirebaseDataBase dataBase = FirebaseDataBase();
   noti.initNotiSetting();
 
-  /*if (service is AndroidServiceInstance) {
+  *//*if (service is AndroidServiceInstance) {
     service.setAsBackgroundService();
 
     service.on('fg').listen((event) {
@@ -47,11 +48,11 @@ Future onStart(ServiceInstance service) async {
     service.on('bg').listen((event) {
       service.setAsBackgroundService();
     });
-  }*/
+  }
 
   service.on('stop').listen((event) {
     service.stopSelf();
-  });
+  });*//*
 
   /// 처리할 함수들 여기 작성
   Timer.periodic(const Duration(hours: 1), (timer) async {
@@ -64,5 +65,5 @@ Future onStart(ServiceInstance service) async {
         noti.dailyAtTimeNotification(alarm, info.sound);
       }
     }
-  });
+  });*/
 }

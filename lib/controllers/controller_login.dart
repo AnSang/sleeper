@@ -30,7 +30,7 @@ class LoginController extends GetxController {
     });
   }
 
-  void loginFacebook() {
+  /*void loginFacebook() {
     auth.signInWithFacebook().then((value) {
       if (value == null) {
         Fluttertoast.showToast(msg: 'FaceBook Login Fail');
@@ -39,7 +39,7 @@ class LoginController extends GetxController {
         Get.off(() => const ScreenMain());
       }
     });
-  }
+  }*/
 
   void loginGithub(BuildContext context) {
     auth.signInWithGitHub(context).then((value) {
